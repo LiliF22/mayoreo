@@ -1,0 +1,46 @@
+/*Tipografías*/
+
+@import "fonts";
+
+/*Header*/
+
+header{
+
+    .navbar-collapse{
+        font-size: 20px;
+    }
+    .navbar-expand-sm .navbar-nav .nav-link{
+        padding-right: 5rem;
+        color: #0075c9;
+        font-family: 'poppinsregular';
+    }
+}
+/*Body*/
+.banner{
+    display: inline-block;
+    width: 100%;
+    margin-left: 7rem;
+    margin-top: 3rem;
+    color: white;
+    font-size: 20px;
+}
+
+.bg-image {
+    width: 100%;
+    min-height: 90vh;
+    background-image: url('/img/banner_principal.png');
+  }
+  .img-fluid{
+      width: 100%;
+  }
+  div.brandeado-car img.left{
+      float:left;
+      width: 50%;
+
+  }
+  div.reset {
+    clear: both;
+  }
+
+
+  /*Responsive part*/
