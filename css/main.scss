@@ -8,6 +8,7 @@ header{
 
     .navbar-collapse{
         font-size: 20px;
+
     }
     .navbar-expand-sm .navbar-nav .nav-link{
         padding-right: 5rem;
@@ -22,8 +23,10 @@ header{
     margin-left: 7rem;
     margin-top: 0px;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'poppinsregular';
+    line-height: 8mm;
+
 }
 .banner h1{
     font-family: 'Mairy_Extrabold';
@@ -31,29 +34,54 @@ header{
     margin-bottom: 35px;
 
 }
+.banner h1 a{
+    border-bottom-style:solid;
+    border-bottom-width: 4px;
+    border-bottom-color: #a4e127ed;
+}
 .banner h2{
     font-family: 'mairy_boldregular';
     font-size: 50px;
+    line-height:10mm;
 }
 
 .bg-image {
     width: 100%;
     min-height: 90vh;
     background-image: url('/img/banner_principal.png');
+    border-radius: 20px;
+
   }
 
   .brandeado-car{
     width: 100%;
     height: auto;
+    margin-left: 8rem;
+    margin-top: 5rem;
+
   }
     .text-p {
     font-family: 'poppinsregular';
-    font-size: 20px;
+    font-size: 25px;
     text-align: right;
-    margin-right: -10rem;
+    margin-right: 10rem;
     margin-top: 5rem;
     color: #777;
   }
-
+  .title h1{
+    font-size: 5rem;
+    color: #0075c9;
+    text-align: center;
+    font-family: 'Mairy_Extrabold';
+  }
+  .title h1 a{
+    border-bottom-style:solid;
+    border-bottom-width: 4px;
+    border-bottom-color: #a4e127ed;
+  
+  }
+  .img-fluid.logos{
+    margin-left: 5rem;
+  }
 
   /*Responsive part*/
