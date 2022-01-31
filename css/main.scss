@@ -20,9 +20,20 @@ header{
     display: inline-block;
     width: 100%;
     margin-left: 7rem;
-    margin-top: 3rem;
+    margin-top: 0px;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
+    font-family: 'poppinsregular';
+}
+.banner h1{
+    font-family: 'Mairy_Extrabold';
+    font-size: 6.2rem;
+    margin-bottom: 35px;
+
+}
+.banner h2{
+    font-family: 'mairy_boldregular';
+    font-size: 50px;
 }
 
 .bg-image {
@@ -30,16 +41,18 @@ header{
     min-height: 90vh;
     background-image: url('/img/banner_principal.png');
   }
-  .img-fluid{
-      width: 100%;
-  }
-  div.brandeado-car img.left{
-      float:left;
-      width: 50%;
 
+  .brandeado-car{
+    width: 100%;
+    height: auto;
   }
-  div.reset {
-    clear: both;
+    .text-p {
+    font-family: 'poppinsregular';
+    font-size: 20px;
+    text-align: right;
+    margin-right: -10rem;
+    margin-top: 5rem;
+    color: #777;
   }
 
 
