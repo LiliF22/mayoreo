@@ -30,7 +30,7 @@ header{
 }
 .banner h1{
     font-family: 'Mairy_Extrabold';
-    font-size: 6.2rem;
+    font-size: 6rem;
     margin-bottom: 35px;
 
 }
@@ -47,8 +47,9 @@ header{
 
 .bg-image {
     width: 100%;
-    min-height: 90vh;
+    height: 100vh;
     background-image: url('/img/banner_principal.png');
+    background-repeat: no-repeat;
     border-radius: 20px;
 
   }
@@ -68,11 +69,21 @@ header{
     margin-top: 5rem;
     color: #777;
   }
-  .title h1{
-    font-size: 5rem;
+  .title p{
+    font-family: 'poppinsregular';
+    font-size: 20px;
+    text-align: center;
+    color: #777;
+    margin-bottom: 2rem;
+
+  }
+
+  .title h1 {
+    font-size: 4rem;
     color: #0075c9;
     text-align: center;
     font-family: 'Mairy_Extrabold';
+    margin-bottom: 8mm
   }
   .title h1 a{
     border-bottom-style:solid;
@@ -82,6 +93,21 @@ header{
   }
   .img-fluid.logos{
     margin-left: 5rem;
+  }
+  /*.slick-slide img {
+    display: flex;
+  }*/
+  .carousel{
+    width: 90%;
+    height: auto;
+    border-radius: 25px;
+    margin-left: 3rem;
+    margin-right: 2rem;
+  }
+  .button{
+    margin-right: 30rem;
+    margin-left: 30rem;
+    background-color: #0075c9;
   }
 
   /*Responsive part*/
