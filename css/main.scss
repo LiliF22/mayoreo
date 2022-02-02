@@ -3,6 +3,7 @@
 @import "fonts";
 
 /*Header*/
+$green: #a4e127ed;
 
 header{
 
@@ -207,10 +208,17 @@ header{
     color: #ffffff;
     padding-left: 45px;
     padding-right: 45px;
-    margin-left: 40rem;
+    margin-left: 45rem;
     margin-top: 1rem;
     margin-bottom: 4rem;
     border-radius: 40px;
+    transition: all .5s ease-in-out;
+    &.link {
+      &:hover,&:focus{
+        background-color: $green;
+        color: #ffffff;
+      }
+    }
     
 
   }
