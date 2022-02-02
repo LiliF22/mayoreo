@@ -38,12 +38,15 @@ header .navbar-expand-sm .navbar-nav .nav-link {
   color: #0075c9;
   font-family: "poppinsregular";
 }
+header .bg-light {
+  border-radius: 0px 0px 20px 20px;
+}
 
 /*Body*/
 .banner {
   display: inline-block;
   width: 100%;
-  margin-left: 7rem;
+  padding-left: 7rem;
   margin-top: 0px;
   color: white;
   font-size: 25px;
@@ -76,13 +79,17 @@ header .navbar-expand-sm .navbar-nav .nav-link {
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
-  border-radius: 20px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.sec-banner {
+  margin-top: -20px;
 }
 
 .bg-image-beneficios {
   width: 100%;
   min-height: 110vh;
-  background-image: url("/img/banner_secundario.jpg");
+  background-image: url("/img/banner_secundario.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -95,10 +102,6 @@ header .navbar-expand-sm .navbar-nav .nav-link {
 .bg-image-beneficios p {
   font-family: "poppinsregular";
   font-size: 22px;
-}
-
-.bg-image-beneficios .col {
-  margin-left: 3rem;
 }
 
 .iconos {
@@ -177,14 +180,79 @@ header .navbar-expand-sm .navbar-nav .nav-link {
   width: 90%;
   height: auto;
   border-radius: 25px;
-  margin-left: 3rem;
-  margin-right: 2rem;
+  margin-left: 20px;
+  padding: 10px;
 }
 
-.button {
-  margin-right: 30rem;
-  margin-left: 30rem;
-  background-color: #0075c9;
+.container-fluid figure {
+  cursor: pointer;
+}
+
+.container-fluid figure img {
+  width: 90%;
+  height: 90%;
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+}
+
+.capa h3 {
+  width: auto;
+  margin-top: 1rem;
+  font-family: "poppinsbold";
+  padding: 10px 0px;
+  margin-bottom: 1rem;
+}
+.capa h3 .linea1, .capa h3 .linea2 {
+  position: relative;
+  width: 105px;
+  height: 3px;
+  background-color: #ffffff;
+  display: block;
+  margin: 0 auto;
+}
+.capa h3 .linea1 {
+  top: -10px;
+}
+.capa h3 .linea2 {
+  bottom: -10px;
+}
+
+.container-fluid figure .capa {
+  position: absolute;
+  top: 0;
+  width: 80%;
+  height: 93.5%;
+  margin-left: 30px;
+  margin-top: 10px;
+  background: rgba(37, 163, 247, 0.6);
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+  border-radius: 12px;
+  font-family: "poppinsregular";
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.container-fluid figure:hover > .capa {
+  opacity: 1;
+  visibility: visible;
+}
+
+.btn {
+  font-family: "poppinsbold";
+  font-size: 24px;
+  background-color: #0189d3;
+  color: #ffffff;
+  padding-left: 45px;
+  padding-right: 45px;
+  margin-left: 40rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  border-radius: 40px;
 }
 
 /*Responsive part*/
+/*# sourceMappingURL=main.css.map */
