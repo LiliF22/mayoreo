@@ -71,17 +71,11 @@ header .navbar-expand-sm .navbar-nav .nav-link {
 
 .bg-image {
   width: 100%;
-<<<<<<< HEAD
-  height: 100vh;
-  background-image: url("/img/banner_principal.png");
-  background-repeat: no-repeat;
-=======
   height: 110vh;
   background-image: url("/img/banner_principal.png");
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
->>>>>>> 224024bf82b303829e62610ab145080a9c199148
   border-radius: 20px;
 }
 
@@ -126,6 +120,10 @@ header .navbar-expand-sm .navbar-nav .nav-link {
   margin-top: 1rem;
 }
 
+.icon-img {
+  width: 133%;
+}
+
 .brandeado-car {
   width: 100%;
   height: auto;
@@ -142,24 +140,15 @@ header .navbar-expand-sm .navbar-nav .nav-link {
   color: #777;
 }
 
-<<<<<<< HEAD
-.title p {
-  font-family: "poppinsregular";
-  font-size: 20px;
-  text-align: center;
-  color: #777;
-  margin-bottom: 2rem;
-=======
 .text-calidad {
   text-align: center;
   font-family: "poppinsregular";
   font-size: 25px;
   color: #777;
->>>>>>> 224024bf82b303829e62610ab145080a9c199148
 }
 
 .title h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   color: #0075c9;
   text-align: center;
   font-family: "Mairy_Extrabold";
@@ -172,13 +161,18 @@ header .navbar-expand-sm .navbar-nav .nav-link {
   border-bottom-color: #a4e127ed;
 }
 
+.title p {
+  font-family: "poppinsregular";
+  font-size: 20px;
+  text-align: center;
+  color: #777;
+  margin-bottom: 2rem;
+}
+
 .img-fluid.logos {
   margin-left: 5rem;
 }
 
-/*.slick-slide img {
-  display: flex;
-}*/
 .carousel {
   width: 90%;
   height: auto;
