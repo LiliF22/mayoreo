@@ -35,7 +35,7 @@ header .navbar-collapse {
 }
 header .navbar-expand-sm .navbar-nav .nav-link {
   padding-right: 5rem;
-  color: #0075c9;
+  color: #2a93ec;
   font-family: "poppinsregular";
 }
 header .bg-light {
@@ -47,29 +47,30 @@ header .bg-light {
   display: inline-block;
   width: 100%;
   padding-left: 7rem;
-  margin-top: 0px;
-  color: white;
-  font-size: 25px;
+  margin-top: 4rem;
+  color: #ffffff;
+  font-size: 26px;
   font-family: "poppinsregular";
-  line-height: 8mm;
+  line-height: 10mm;
 }
 
 .banner h1 {
   font-family: "Mairy_Extrabold";
-  font-size: 6rem;
+  font-size: 100px;
   margin-bottom: 35px;
+  margin-top: 20px;
 }
 
 .banner h1 a {
   border-bottom-style: solid;
   border-bottom-width: 4px;
-  border-bottom-color: #a4e127ed;
+  border-bottom-color: #89d631;
 }
 
 .banner h2 {
   font-family: "mairy_boldregular";
-  font-size: 40px;
-  line-height: 10mm;
+  font-size: 42px;
+  line-height: 12mm;
 }
 
 .bg-image {
@@ -82,10 +83,6 @@ header .bg-light {
   border-radius: 0px 0px 20px 20px;
 }
 
-.sec-banner {
-  margin-top: -20px;
-}
-
 .bg-image-beneficios {
   width: 100%;
   min-height: 110vh;
@@ -96,12 +93,13 @@ header .bg-light {
 
 .bg-image-beneficios h1 {
   text-align: center;
-  margin-right: 15rem;
+  margin-right: 8rem;
+  margin-top: -1rem;
 }
 
 .bg-image-beneficios p {
   font-family: "poppinsregular";
-  font-size: 22px;
+  font-size: 26px;
 }
 
 .iconos {
@@ -144,19 +142,19 @@ header .bg-light {
   text-align: right;
   margin-right: 10rem;
   margin-top: 5rem;
-  color: #777;
+  color: #707070;
 }
 
 .text-calidad {
   text-align: center;
   font-family: "poppinsregular";
   font-size: 25px;
-  color: #777;
+  color: #707070;
 }
 
 .title h1 {
   font-size: 5rem;
-  color: #0075c9;
+  color: #2a93ec;
   text-align: center;
   font-family: "Mairy_Extrabold";
   margin-bottom: 8mm;
@@ -165,19 +163,27 @@ header .bg-light {
 .title h1 a {
   border-bottom-style: solid;
   border-bottom-width: 4px;
-  border-bottom-color: #a4e127ed;
+  border-bottom-color: #89d631;
 }
 
 .title p {
   font-family: "poppinsregular";
   font-size: 20px;
   text-align: center;
-  color: #777;
+  color: #707070;
   margin-bottom: 2rem;
 }
 
 .img-fluid.logos {
+  width: 90%;
+  height: 90%;
   margin-left: 5rem;
+  border: #7474703b 3px solid;
+  border-radius: 20px;
+  margin-left: 20px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .carousel {
@@ -228,7 +234,7 @@ header .bg-light {
   height: 93.5%;
   margin-left: 30px;
   margin-top: 10px;
-  background: rgba(37, 163, 247, 0.6);
+  background: rgba(42, 147, 236, 0.6);
   -webkit-transition: all 500ms ease-out;
   transition: all 500ms ease-out;
   opacity: 0;
@@ -247,11 +253,11 @@ header .bg-light {
 
 .btn {
   font-family: "poppinsbold";
-  font-size: 24px;
-  background-color: #0189d3;
+  font-size: 28px;
+  background-color: #2a93ec;
   color: #ffffff;
-  padding-left: 45px;
-  padding-right: 45px;
+  padding-left: 25px;
+  padding-right: 25px;
   margin-left: 45rem;
   margin-top: 1rem;
   margin-bottom: 4rem;
@@ -260,8 +266,97 @@ header .bg-light {
   transition: all 0.5s ease-in-out;
 }
 .btn.link:hover, .btn.link:focus {
-  background-color: #a4e127ed;
+  background-color: #89d631;
   color: #ffffff;
+}
+
+.subtitle h2 {
+  text-align: center;
+  font-family: "mairy_boldregular";
+  font-size: 40px;
+  color: #2a93ec;
+}
+
+.icons-ideal h2 {
+  font-family: "mairy_boldregular";
+  font-size: 28px;
+  text-align: center;
+  color: #2a93ec;
+}
+
+.square {
+  padding: 15px;
+  border: #7474703b 3px solid;
+  border-radius: 20px;
+  padding: 15px;
+  margin-right: 12px;
+}
+
+.p-square {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.bg-image-asesora {
+  width: 100%;
+  min-height: 65vh;
+  background-image: url("/img/Banner_asesora.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: right;
+}
+
+.bg-image-asesora h1 {
+  font-family: "Mairy_Extrabold";
+  font-size: 70px;
+  color: #2a93ec;
+  margin-right: 8rem;
+}
+
+.bg-image-asesora h1 a {
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  border-bottom-color: #89d631;
+}
+
+.bg-image-asesora h2 {
+  font-family: "mairy_boldregular";
+  font-size: 54px;
+  color: #2a93ec;
+  margin-right: 8rem;
+}
+
+.bg-image-asesora p {
+  font-family: "poppinsregular";
+  font-size: 28px;
+  color: black;
+  margin-right: 8rem;
+  margin-top: 28px;
+}
+
+.title-contact-us h1 {
+  font-size: 40px;
+  color: #2a93ec;
+  text-align: center;
+  font-family: "Mairy_Extrabold";
+  line-height: 10mm;
+  margin-top: 5rem;
+}
+
+.title-contact-us h1 a {
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  border-bottom-color: #89d631;
+}
+
+.img-footer {
+  width: 100%;
+  min-height: 50vh;
+  background-image: url("/img/footer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*Responsive part*/
