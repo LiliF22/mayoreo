@@ -1,0 +1,7 @@
+<svg id="Icons_Contact_ic-contact-map-pin" data-name="Icons / Contact / ic-contact-map-pin" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectángulo_188" data-name="Rectángulo 188" width="24" height="24" fill="none"/>
+  <g id="ic-contact-map-pin" transform="translate(0.002 -0.033)">
+    <path id="Trazado_82" data-name="Trazado 82" d="M12.76,1.6H11.24c-5,.49-7.68,6.14-5.31,10.54L11.23,22a.87.87,0,0,0,1.54,0l5.3-9.83C20.44,7.74,17.73,2.09,12.76,1.6Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="2"/>
+    <rect id="Rectángulo_26" data-name="Rectángulo 26" width="5" height="5" rx="2.5" transform="translate(9.5 6)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="2"/>
+  </g>
+</svg>
