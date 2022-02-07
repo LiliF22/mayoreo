@@ -46,19 +46,17 @@ header .bg-light {
 .banner {
   display: inline-block;
   width: 100%;
-  padding-left: 7rem;
-  margin-top: 4rem;
+  padding: 2rem 0px 0px 7rem;
   color: #ffffff;
-  font-size: 26px;
+  font-size: 30px;
   font-family: "poppinsregular";
-  line-height: 10mm;
+  line-height: 12mm;
 }
 
 .banner h1 {
   font-family: "Mairy_Extrabold";
   font-size: 100px;
-  margin-bottom: 35px;
-  margin-top: 20px;
+  margin: 5rem 0px 2rem;
 }
 
 .banner h1 a {
@@ -69,8 +67,10 @@ header .bg-light {
 
 .banner h2 {
   font-family: "mairy_boldregular";
-  font-size: 40px;
-  line-height: 12mm;
+  font-size: 50px;
+  line-height: 15mm;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .bg-image {
@@ -85,7 +85,7 @@ header .bg-light {
 
 .bg-image-beneficios {
   width: 100%;
-  min-height: 110vh;
+  height: 96vh;
   background-image: url("/img/banner_secundario.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -93,7 +93,6 @@ header .bg-light {
 
 .bg-image-beneficios h1 {
   text-align: center;
-  margin-right: 8rem;
   margin-top: -1rem;
 }
 
@@ -204,9 +203,7 @@ header .bg-light {
 
 .capa h3 {
   width: auto;
-  margin-top: 1rem;
   font-family: "poppinsbold";
-  padding: 10px 0px;
   margin-bottom: 1rem;
 }
 .capa h3 .linea1, .capa h3 .linea2 {
@@ -249,13 +246,14 @@ header .bg-light {
 }
 
 .btn {
+  display: table;
+  margin: 0 auto;
   font-family: "poppinsbold";
   font-size: 28px;
   background-color: #2a93ec;
   color: #ffffff;
   padding-left: 25px;
   padding-right: 25px;
-  margin-left: 45rem;
   margin-top: 1rem;
   margin-bottom: 4rem;
   border-radius: 40px;
@@ -334,25 +332,33 @@ header .bg-light {
   font-family: "mairy_boldregular";
   font-size: 54px;
   color: #2a93ec;
-  margin-right: 8rem;
+  padding-right: 8rem;
+  padding-bottom: 3rem;
 }
 
 .bg-image-asesora .pasos {
   font-family: "poppinsregular";
   font-size: 28px;
-  padding: 2.5rem;
-  color: black;
-  margin-right: 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 7.5rem;
 }
 
 .bg-image-asesora span {
   font-size: 22px;
   font-family: "poppinsregular";
-  padding: 7px 14px;
-  margin-left: 1.5rem;
+  padding: 10px 15px;
   border-radius: 25px;
   color: #89d631;
   background-color: #ffffff;
+}
+
+.bg-image-asesora .col-1 {
+  margin-bottom: 15px;
 }
 
 .title-contact-us h1 {
@@ -396,7 +402,6 @@ header .bg-light {
 
 .btn-send {
   margin: 0 auto;
-  padding: 40px;
   display: block;
   font-family: "poppinsbold";
   font-size: 22px;
@@ -407,6 +412,10 @@ header .bg-light {
   padding-bottom: 8px;
   padding-top: 8px;
   border-radius: 40px;
+}
+
+.form-group.send {
+  padding-bottom: 3rem;
 }
 
 .page-footer {
@@ -476,10 +485,74 @@ header .bg-light {
       -ms-flex-pack: center;
           justify-content: center;
 }
+.sociales .linea1 {
+  position: relative;
+  width: 12rem;
+  height: 3px;
+  background-color: #ffffff;
+}
+.sociales .linea1 {
+  bottom: -20px;
+}
 
 .sociales img {
   padding: 5px;
 }
 
+.copyright {
+  text-align: center;
+  color: #ffffff;
+  font-size: 10px;
+  padding-top: 35px;
+}
+
+.copyright h4 {
+  font-size: 20px;
+}
+
+.copyright p {
+  font-size: 15px;
+}
+
 /*Responsive part*/
+@media (max-width: 1366px) {
+  .banner {
+    padding: 4rem 0px 0px 5rem;
+    font-size: 20px;
+    line-height: 8mm;
+  }
+
+  .banner h1 {
+    font-size: 70px;
+    margin: 0px 0px 10px;
+  }
+
+  .banner h2 {
+    font-family: "mairy_boldregular";
+    font-size: 35px;
+    line-height: 10mm;
+  }
+
+  .brandeado-car {
+    margin-left: 3rem;
+    margin-top: 4rem;
+  }
+
+  .text-p {
+    font-size: 18px;
+    margin-right: 6rem;
+  }
+
+  .title h1 {
+    font-size: 4rem;
+  }
+
+  .img-fluid.logos {
+    width: 95%;
+  }
+
+  .btn {
+    font-size: 20px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
