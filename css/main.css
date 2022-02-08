@@ -30,6 +30,9 @@
   font-style: normal;
 }
 /*Header*/
+header .navbar-brand {
+  padding-left: 6rem;
+}
 header .navbar-collapse {
   font-size: 20px;
 }
@@ -37,6 +40,9 @@ header .navbar-expand-sm .navbar-nav .nav-link {
   padding-right: 5rem;
   color: #2a93ec;
   font-family: "poppinsregular";
+}
+header .navbar-expand-sm .navbar-nav .nav-link:hover {
+  color: #89d631;
 }
 header .bg-light {
   border-radius: 0px 0px 20px 20px;
@@ -48,14 +54,14 @@ header .bg-light {
   width: 100%;
   padding: 2rem 0px 0px 7rem;
   color: #ffffff;
-  font-size: 30px;
+  font-size: 26px;
   font-family: "poppinsregular";
   line-height: 12mm;
 }
 
 .banner h1 {
   font-family: "Mairy_Extrabold";
-  font-size: 100px;
+  font-size: 90px;
   margin: 5rem 0px 2rem;
 }
 
@@ -67,7 +73,7 @@ header .bg-light {
 
 .banner h2 {
   font-family: "mairy_boldregular";
-  font-size: 50px;
+  font-size: 45px;
   line-height: 15mm;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -85,7 +91,7 @@ header .bg-light {
 
 .bg-image-beneficios {
   width: 100%;
-  height: 96vh;
+  height: 110vh;
   background-image: url("/img/banner_secundario.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -98,7 +104,34 @@ header .bg-light {
 
 .bg-image-beneficios p {
   font-family: "poppinsregular";
-  font-size: 25px;
+  font-size: 26px;
+}
+
+.banner-beneficios {
+  display: inline-block;
+  width: 100%;
+  padding-left: 7rem;
+  color: #ffffff;
+  font-size: 26px;
+  font-family: "poppinsregular";
+}
+
+.banner-beneficios h1 {
+  font-family: "Mairy_Extrabold";
+  font-size: 90px;
+  padding: 2rem;
+  margin: 0px;
+}
+
+.banner-beneficios h1 a {
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  border-bottom-color: #89d631;
+}
+
+.banner-beneficios h2 {
+  font-family: "mairy_boldregular";
+  font-size: 40px;
 }
 
 .iconos {
@@ -121,11 +154,11 @@ header .bg-light {
 }
 
 .icon-img {
-  width: 133%;
+  width: 100%;
 }
 
 .icon-size {
-  width: 120%;
+  width: 100%;
 }
 
 .brandeado-car {
@@ -137,7 +170,7 @@ header .bg-light {
 
 .text-p {
   font-family: "poppinsregular";
-  font-size: 25px;
+  font-size: 26px;
   text-align: right;
   margin-right: 10rem;
   margin-top: 5rem;
@@ -147,7 +180,7 @@ header .bg-light {
 .text-calidad {
   text-align: center;
   font-family: "poppinsregular";
-  font-size: 25px;
+  font-size: 26px;
   color: #707070;
 }
 
@@ -156,7 +189,7 @@ header .bg-light {
   color: #2a93ec;
   text-align: center;
   font-family: "Mairy_Extrabold";
-  margin-bottom: 8mm;
+  padding: 3rem;
 }
 
 .title h1 a {
@@ -167,10 +200,10 @@ header .bg-light {
 
 .title p {
   font-family: "poppinsregular";
-  font-size: 20px;
+  font-size: 26px;
   text-align: center;
   color: #707070;
-  margin-bottom: 2rem;
+  padding: 1rem;
 }
 
 .img-fluid.logos {
@@ -319,7 +352,8 @@ header .bg-light {
   font-family: "Mairy_Extrabold";
   font-size: 70px;
   color: #2a93ec;
-  margin-right: 8rem;
+  padding: 3rem 8rem 1rem;
+  margin: 0px;
 }
 
 .bg-image-asesora h1 a {
@@ -350,7 +384,7 @@ header .bg-light {
 
 .bg-image-asesora span {
   font-size: 22px;
-  font-family: "poppinsregular";
+  font-family: "poppinsbold";
   padding: 10px 15px;
   border-radius: 25px;
   color: #89d631;
@@ -367,7 +401,7 @@ header .bg-light {
   text-align: center;
   font-family: "Mairy_Extrabold";
   line-height: 10mm;
-  margin-top: 5rem;
+  padding: 3rem;
 }
 
 .title-contact-us h1 a {
@@ -392,12 +426,17 @@ header .bg-light {
   margin-left: 6rem;
 }
 
-.form-section-r {
-  margin-left: 3rem;
+.form-check {
+  padding: 12px;
+  margin-left: 2rem;
 }
 
-.form-check {
-  margin-left: 2.5rem;
+.form-control.otros {
+  margin-top: 5px;
+}
+
+#otros {
+  display: none;
 }
 
 .btn-send {
@@ -515,7 +554,85 @@ header .bg-light {
 }
 
 /*Responsive part*/
-@media (max-width: 1366px) {
+@media (max-width: 1680px) {
+  .bg-image-beneficios {
+    height: 85vh;
+  }
+
+  .bg-image {
+    height: 80vh;
+  }
+
+  .banner {
+    padding: 5rem 0px 0px 6rem;
+    font-size: 26px;
+    line-height: 10mm;
+  }
+
+  .banner h1 {
+    font-size: 85px;
+    margin: 0px 0px 15px;
+  }
+
+  .banner h2 {
+    font-family: "mairy_boldregular";
+    font-size: 45px;
+    line-height: 12mm;
+  }
+
+  .text-p {
+    font-size: 24px;
+  }
+
+  .title h1 {
+    font-size: 70px;
+  }
+
+  .img-fluid.logos {
+    width: 95%;
+  }
+
+  .btn {
+    font-size: 20px;
+  }
+
+  .bg-image-beneficios {
+    height: 85vh;
+  }
+
+  .bg-image-beneficios p {
+    font-size: 24px;
+  }
+
+  .banner-beneficios {
+    padding-left: 5rem;
+    font-size: 30px;
+  }
+
+  .banner-beneficios h1 {
+    font-size: 85px;
+    padding: 10px;
+  }
+
+  .banner-beneficios h2 {
+    font-size: 35px;
+  }
+
+  .iconos {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+  }
+
+  .bg-image-asesora h1 {
+    padding: 3rem 8rem 3rem;
+  }
+}
+@media (max-width: 1440px) {
+  .bg-image {
+    height: 90vh;
+  }
+
   .banner {
     padding: 4rem 0px 0px 5rem;
     font-size: 20px;
@@ -544,7 +661,8 @@ header .bg-light {
   }
 
   .title h1 {
-    font-size: 4rem;
+    font-size: 70px;
+    padding: 0px;
   }
 
   .img-fluid.logos {
@@ -553,6 +671,156 @@ header .bg-light {
 
   .btn {
     font-size: 20px;
+  }
+
+  .bg-image-beneficios {
+    height: 95vh;
+  }
+
+  .bg-image-beneficios p {
+    font-size: 19px;
+  }
+
+  .banner-beneficios {
+    font-size: 30px;
+  }
+
+  .banner-beneficios h1 {
+    font-size: 70px;
+    padding: 10px;
+  }
+
+  .banner-beneficios h2 {
+    font-size: 30px;
+    margin: 0px;
+  }
+
+  .iconos {
+    width: 95px;
+    height: 95px;
+    padding: 20px;
+  }
+
+  .bg-image-asesora h1 {
+    padding: 50px;
+    font-size: 55px;
+    margin-right: 1rem;
+  }
+
+  .bg-image-asesora h2 {
+    font-family: "mairy_boldregular";
+    font-size: 44px;
+    color: #2a93ec;
+    padding: 2rem 4rem 3rem 0rem;
+  }
+
+  .bg-image-asesora .pasos {
+    padding-right: 4rem;
+    font-size: 26px;
+  }
+
+  .text-footer a {
+    font-size: 13px;
+    padding: 0px 0px 0px 12px;
+  }
+
+  .text-footer p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1224px) {
+  .banner {
+    font-size: 18px;
+    padding: 3rem 0px 0px 3rem;
+  }
+
+  .banner h1 {
+    font-size: 55px;
+  }
+
+  .banner h2 {
+    font-size: 30px;
+    line-height: 9mm;
+  }
+
+  .text-p {
+    font-size: 17px;
+  }
+
+  .title h1 {
+    font-size: 55px;
+    padding: 1rem;
+  }
+
+  .title p {
+    font-size: 17px;
+    padding: 0px;
+  }
+
+  .img-fluid.logos {
+    width: 90%;
+  }
+
+  .btn {
+    font-size: 17px;
+  }
+
+  .bg-image-beneficios {
+    height: 85vh;
+  }
+
+  .bg-image-beneficios p {
+    font-size: 18px;
+  }
+
+  .banner-beneficios {
+    padding-left: 4rem;
+  }
+
+  .banner-beneficios h1 {
+    font-size: 55px;
+  }
+
+  .banner-beneficios h2 {
+    font-size: 26px;
+    margin: 0px;
+  }
+
+  .iconos {
+    width: 80px;
+    height: 80px;
+    padding: 15px;
+  }
+
+  .text-calidad {
+    font-size: 17px;
+  }
+
+  .subtitle h2 {
+    font-size: 30px;
+  }
+
+  .bg-image-asesora h1 {
+    padding-top: 42px;
+    font-size: 40px;
+  }
+
+  .bg-image-asesora h2 {
+    font-size: 32px;
+    padding-top: 0px;
+  }
+
+  .bg-image-asesora .pasos {
+    font-size: 20px;
+  }
+
+  .text-footer a {
+    font-size: 13px;
+    padding: 0px 0px 0px 12px;
+  }
+
+  .text-footer p {
+    font-size: 13px;
   }
 }
 /*# sourceMappingURL=main.css.map */
