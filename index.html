@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <!-- Place favicon.ico in the root directory -->
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.0/animate.min.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/slick.css">
@@ -30,25 +30,25 @@
 <body>
 
   <!-- Add your site or application content here -->
-  <header class="sticky-top">
+  <header id="navbar-menu" class="sticky-top">
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
         aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="#">
-        <img src="img/logo_menita_food.svg" width="200" height="100" class="d-inline-block align top" alt="">
+        <img src="img/logo_menita_food.svg" width="200" height="100" class="d-inline-block align top logo" alt="">
       </a>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Productos</a>
+            <a class="nav-link" href="#producto">Productos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Beneficios</a>
+            <a class="nav-link" href="#beneficio">Beneficios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link" href="#contacto">Contacto</a>
           </li>
         </ul>
       </div>
@@ -59,25 +59,26 @@
     <div class="bg-image">
       <div class="banner">
         <div class="col">
-          <h1><a>MENITA </a>PARA TU NEGOCIO</h1>
-          <h2>¿Compras cada uno de tus insumos en lugares<br>
+          <h1>MENITA PARA TU NEGOCIO</h1>
+          <span class="linea"></span>
+          <h2>¿Compras cada uno de tus insumos en lugares
             diferentes y la mercancía ya no cabe en tu negocio?
           </h2>
           <p>
-            Es viernes, tienes que pagar la nómina y la mercancía del mes,<br>
+            Es viernes, tienes que pagar la nómina y la mercancía del mes,
             pero no cuentas con el dinero necesario para pagar ambas cosas.
           </p>
           <p>
-            Por estas a las carreras no revisaste que el pedido estuviera<br>
+            Por estas a las carreras no revisaste que el pedido estuviera
             completo y terminaste pagando más de lo que te dio tu proveedor.
           </p>
           <p>
-            ¿Algo de esto te suena familiar? No eres el único al que le ocurre, a<br>
+            ¿Algo de esto te suena familiar? No eres el único al que le ocurre, a
             muchos negocios como el tuyo les pasa día a día.
           </p>
           <h2>
-            Esto te sigue sucediendo porque no has<br>
-            conocido a un proveedor que le intereses tú<br>
+            Esto te sigue sucediendo porque no has
+            conocido a un proveedor que le intereses tú
             y el buen funcionamiento de tus operaciones
 
           </h2>
@@ -88,10 +89,10 @@
   <!-- Menita food -->
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-6">
-        <img src="/img/Coche_brandeado.png" class="brandeado-car img-fluid w-100" alt="Responsive image">
+      <div class="col-sm-12 col-md-12 col-lg-6">
+        <img src="img/Coche_brandeado.png" class="brandeado-car img-fluid w-100" alt="Responsive image">
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-12 col-md-12 col-lg-6">
         <div class="text-p">
           <p>En Menita Food tenemos más de 15 años importando y
             comercializando en toda la República proteínas
@@ -108,47 +109,49 @@
             Toda nuestra mercancia cumple con estándares de
             calidad e higiene alimentaria, además mantenemos la
             cadena de frío hasta el último momento para que los
-            alimentos no corran riesgo alguno
+            alimentos no corran riesgo alguno.
           </p>
         </div>
       </div>
     </div>
   </div>
   <!-- Calidad garantizada -->
-  <div class="container-fluid">
+  <div class="container-fluid p-square">
     <div class="title">
-      <h1>CALIDA<a>D GARAN</a>TIZADA</h1>
+      <h1>CALIDAD GARANTIZADA</h1>
+      <span class="linea"></span>
     </div>
     <div class="row">
       <div class="col-sm-3 text-center">
-        <img src="/img/ANSI_logo.png" class="img-fluid logos" onmouseover="this.src='/img/ANSI_logo_hover.png'"
-          onmouseout="this.src='/img/ANSI_logo.png'">
+        <img src="img/ANSI_logo.png" class="img-fluid logos" onmouseover="this.src='img/ANSI_logo_hover.png'"
+          onmouseout="this.src='img/ANSI_logo.png'">
       </div>
       <div class="col-sm-3 text-center">
-        <img src="/img/BAP_logo.png" class="img-fluid logos" onmouseover="this.src='/img/BAP_logo_hover.png'"
-          onmouseout="this.src='/img/BAP_logo.png'">
+        <img src="img/BAP_logo.png" class="img-fluid logos" onmouseover="this.src='img/BAP_logo_hover.png'"
+          onmouseout="this.src='img/BAP_logo.png'">
       </div>
       <div class="col-sm-3 text-center">
-        <img src="/img/NSF_logo.png" class="img-fluid logos" onmouseover="this.src='/img/NSF_hover.png'"
-          onmouseout="this.src='/img/NSF_logo.png'">
+        <img src="img/NSF_logo.png" class="img-fluid logos" onmouseover="this.src='img/NSF_hover.png'"
+          onmouseout="this.src='img/NSF_logo.png'">
       </div>
       <div class="col-sm-3 text-center">
-        <img src="/img/SGS_logo.png" class="img-fluid logos" onmouseover="this.src='/img/SGS_hover.png'"
-          onmouseout="this.src='/img/SGS_logo.png'">
+        <img src="img/SGS_logo.png" class="img-fluid logos" onmouseover="this.src='img/SGS_hover.png'"
+          onmouseout="this.src='img/SGS_logo.png'">
       </div>
     </div>
   </div>
   <!-- Carousel-->
-  <div class="container-fluid">
+  <div id="producto" class="container-fluid">
     <div class="title">
-      <h1>NUESTRA G<a>AMA DE </a>PRODUCTOS</h1>
+      <h1>NUESTRA GAMA DE PRODUCTOS</h1>
+      <span class="linea2"></span>
       <p>Nos especialiamos en productos cárnicos de alta gama como<br>
         carnes, mariscos, aves, alimentos preparados y muchos más</p>
     </div>
     <div class="slider">
       <div class="col-sm-4">
         <figure>
-          <img src="/img/carne_de_res.jpg" class="img-fluid carousel">
+          <img src="img/carne_de_res.jpg" class="img-fluid carousel">
           <div class="capa pt-4">
             <h3>
               <span class="linea1"></span>
@@ -175,7 +178,7 @@
       </div>
       <div class="col-sm-4">
         <figure>
-          <img src="/img/carne_de_cerdo.jpg" class="img-fluid carousel">
+          <img src="img/carne_de_cerdo.jpg" class="img-fluid carousel">
           <div class="capa pt-4">
             <h3>
               <span class="linea1"></span>
@@ -198,7 +201,7 @@
       </div>
       <div class="col-sm-4">
         <figure>
-          <img src="/img/carne_de_pollo.jpg" class="img-fluid carousel">
+          <img src="img/carne_de_pollo.jpg" class="img-fluid carousel">
           <div class="capa pt-4">
             <h3>
               <span class="linea1"></span>
@@ -225,7 +228,7 @@
       </div>
       <div class="col-sm-4">
         <figure>
-          <img src="/img/mariscos.jpg" class="img-fluid carousel">
+          <img src="img/mariscos.jpg" class="img-fluid carousel">
           <div class="capa pt-4">
             <h3>
               <span class="linea1"></span>
@@ -250,7 +253,7 @@
       </div>
       <div class="col-sm-4">
         <figure>
-          <img src="/img/otros.jpg" class="img-fluid carousel">
+          <img src="img/otros.jpg" class="img-fluid carousel">
           <div class="capa pt-4">
             <h3>
               <span class="linea1"></span>
@@ -283,16 +286,17 @@
     </div>
   </div>
   <!--Beneficios-->
-  <div class="container-fluid p-0 sec-banner">
+  <div id="beneficio" class="container-fluid p-0 sec-banner">
     <div class="bg-image-beneficios">
       <div class="banner-beneficios">
         <div class="col">
-          <h1>B<a>ENEFICIO</a>S</h1>
+          <h1>BENEFICIOS</h1>
+          <span class="linea"></span>
           <div>
             <div class="row">
               <div class="col-1 align-middle">
                 <div class="iconos">
-                  <img class="icon-size" src="/img/icono_precios_bajos.png" align="left">
+                  <img class="icon-size" src="img/icono_precios_bajos.png" align="left">
                 </div>
               </div>
               <div class="col-11 pl-5">
@@ -306,7 +310,7 @@
             <div class="row">
               <div class="col-1 align-middle">
                 <div class="iconos">
-                  <img class="icon-size" src="/img/icono_facilidades.png" align="left">
+                  <img class="icon-size" src="img/icono_facilidades.png" align="left">
                 </div>
               </div>
               <div class="col-11 pl-5">
@@ -320,7 +324,7 @@
             <div class="row">
               <div class="col-1 align-middle">
                 <div class="iconos">
-                  <img class="icon-size" src="/img/icono_calendariza.png" align="left">
+                  <img class="icon-size" src="img/icono_calendariza.png" align="left">
                 </div>
               </div>
               <div class="col-11 pl-5">
@@ -334,7 +338,7 @@
             <div class="row">
               <div class="col-1 align-middle">
                 <div class="iconos">
-                  <img class="icon-size" src="/img/icono_camara_fria.png" align="left">
+                  <img class="icon-size" src="img/icono_camara_fria.png" align="left">
                 </div>
               </div>
               <div class="col-11 pl-5">
@@ -349,7 +353,7 @@
             <div class="row">
               <div class="col-1 align-middle">
                 <div class="iconos">
-                  <img class="icon-size" src="/img/icono_entregas.png" align="left">
+                  <img class="icon-size" src="img/icono_entregas.png" align="left">
                 </div>
               </div>
               <div class="col-11 pl-5">
@@ -368,7 +372,8 @@
     <!-- Enfoque-->
     <div class="container-fluid">
       <div class="title">
-        <h1>ENFO<a>QUE WIN</a> - WIN</h1>
+        <h1>ENFOQUE WIN - WIN</h1>
+        <span class="linea2"></span>
       </div>
       <div class="text-calidad">
         <p>
@@ -391,40 +396,40 @@
         <h2>Somos ideales para</h2>
       </div>
       <div class="cuadrados d-flex flex-wrap">
-        <div class="col-sm-12 col-md-3 icons-ideal ">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 icons-ideal mt-2 mb-2 ">
           <div class="square">
             <div class="col-3">
-              <img class="img-fluid" src="/img/icono_restaurantes.png" align="left">
+              <img class="img-fluid" src="img/icono_restaurantes.png" align="left">
             </div>
             <div class="col-9">
               <h2>RESTAURANTES</h2>
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-3 icons-ideal ">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 icons-ideal mt-2 mb-2 ">
           <div class="square">
             <div class="col-3">
-              <img class="img-fluid" src="/img/icono_comedores.png" align="left">
+              <img class="img-fluid" src="img/icono_comedores.png" align="left">
             </div>
             <div class="col-9">
               <h2>COMEDORES<br>INDUSTRIALES</h2>
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-3 icons-ideal ">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 icons-ideal mt-2 mb-2 ">
           <div class="square">
             <div class="col-3">
-              <img class="img-fluid" src="/img/icono_hoteles.png" align="left">
+              <img class="img-fluid" src="img/icono_hoteles.png" align="left">
             </div>
             <div class="col-9">
               <h2>HOTELES</h2>
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-3 icons-ideal ">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 icons-ideal mt-2 mb-2 ">
           <div class="square">
             <div class="col-3">
-              <img class="img-fluid" src="/img/icono_carnicos.png" align="left">
+              <img class="img-fluid" src="img/icono_carnicos.png" align="left">
             </div>
             <div class="col-9">
               <h2>CUALQUIER COMERCIO QUE REQUIERA PRODUCTOS CÁRNICOS</h2>
@@ -470,47 +475,9 @@
               </div>
             </div>
           </div>
-          <!--
-          <div class="row">
-            <div class="d-flex justify-content-end col-12 pasos">
-              <div>
-                <p>Llena el formulario</p>
-              </div>
-              <div>
-                <span>1</span>
-              </div>
-            </div>
-            <div class="d-flex justify-content-end col-12 pasos">
-              <div>
-                <p>Un asesor se pondrá en contacto contigo</p>
-              </div>
-              <div>
-                <span>2</span>
-              </div>
-            </div>
-            <div class="d-flex justify-content-end col-12 pasos">
-              <div>
-                <p>
-                  Preguntará por tus necesidades para <br>
-                  personalizar tu sistema de entregas y pagos
-                </p>
-              </div>
-              <div>
-                <span>3</span>
-              </div>
-            </div>
-          </div>
-          -->
         </div>
       </div>
     </div>
-    <!-- Formulario
-                <p>Un asesor se pondrá en contacto contigo</p>
-            <p>
-              Preguntará por tus necesidades para<br>
-              personalizar tu sistema de entregas y pagos
-            </p>
-    -->
     <div class="title-contact-us">
       <h1>
         ¿Quieres que nos comuniquemos contigo? <br>
@@ -519,30 +486,30 @@
     </div>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-5 form-section-l">
+        <div class="col-sm-12 col-md-12 col-lg-6 form-section-l">
           <div class="form-group row">
-            <label class="col-4 ">Nombre Completo</label>
-            <input type="text" class="form-control col-8">
+            <label class="col-md-12 col-lg-4">Nombre Completo</label>
+            <input type="text" class="form-control col-md-9 col-lg-8">
           </div>
           <div class="form-group row">
-            <label class="col-4">Correo electrónico</label>
-            <input type="email" class="form-control col-8">
+            <label class="col-md-12 col-lg-4">Correo electrónico</label>
+            <input type="email" class="form-control col-md-9 col-lg-8">
           </div>
           <div class="form-group row">
-            <label class="col-4">Teléfono</label>
-            <input type="tel" class="form-control col-8">
+            <label class="col-md-12 col-lg-4">Teléfono</label>
+            <input type="tel" class="form-control col-md-9 col-lg-8">
           </div>
           <div class="form-group row">
-            <label class="col-4 ">Nombre de tu negocio</label>
-            <input type="text" class="form-control col-8">
+            <label class="col-md-12 col-lg-4 ">Nombre de tu negocio</label>
+            <input type="text" class="form-control col-md-9 col-lg-8">
           </div>
           <div class="form-group row">
-            <label class="col-4 ">De qué trata tu negocio</label>
-            <input type="text" class="form-control col-8">
+            <label class="col-md-12 col-lg-4 ">De qué trata tu negocio</label>
+            <input type="text" class="form-control col-md-9 col-lg-8">
           </div>
         </div>
-        <div class="col-sm-5 form-section-r">
-          <label>Productos de tu interés</label>
+        <div class="col-sm-12 col-md-12 col-lg-6 form-section-r">
+          <label class="col-form-label pb-3">Productos de tu interés</label>
           <div class="row">
             <div class="form-check">
               <input type="radio" class="form-check-input">
@@ -574,9 +541,9 @@
               <input type="text" class="form-control otros">
             </div>
           </div>
-          <div class="form-group ">
-            <label class="col-4 col-form-label">Comentarios</label>
-            <textarea class="form-control"></textarea>
+          <div class="form-group">
+            <label class="col-form-label">Comentarios</label>
+            <textarea class="form-control textarea"></textarea>
           </div>
         </div>
       </div>
@@ -585,28 +552,28 @@
       </div>
     </div>
     <!-- Footer -->
-    <footer class="page-footer">
+    <footer id="contacto" class="page-footer">
       <div class="container-fluid">
-        <img class="logo-menita" src="/img/Logo_menita_blanco.png">
+        <img class="logo-menita img-fluid" src="img/Logo_menita_blanco.png">
         <div class="contact-title">
           <h2>Contáctanos</h2>
         </div>
         <div class="d-flex flex-wrap col-sm-12 cont-footer">
-          <div class="col-sm-3 icons-ideal">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 icons-ideal">
             <div class="text-footer">
               <div class="col-2">
-                <img class="img-fluid icon" src="/img/icono_ubicacion.svg" align="left">
+                <img class="img-fluid icon" src="img/icono_ubicacion.svg" align="left">
               </div>
               <div class="col-10">
                 <p>Volcán Paricutín #4881 Zapopan,Jalisco 45130</p>
               </div>
             </div>
           </div>
-          <div class="col-sm-3 icons-ideal ">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 icons-ideal ">
             <div class="text-footer flex-wrap">
               <div class="col-12">
                 <div class="col-3">
-                  <img class="img-fluid" src="/img/icono_telefono.svg" align="left">
+                  <img class="img-fluid" src="img/icono_telefono.svg" align="left">
                 </div>
                 <div class="col-9">
                   <a href="tel:3320655152">332 065 5152</a>
@@ -614,7 +581,7 @@
               </div>
               <div class="col-12">
                 <div class="col-3">
-                  <img class="img-fluid" src="/img/icono_mail.svg" align="left">
+                  <img class="img-fluid" src="img/icono_mail.svg" align="left">
                 </div>
                 <div class="col-9">
                   <a href="mailto:hola@menita.com">hola@menita.com</a>
@@ -622,10 +589,10 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-3 icons-ideal">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 icons-ideal">
             <div class="text-footer">
               <div class="col-2">
-                <img class="img-fluid icon" src="/img/icono_horario.svg" align="left">
+                <img class="img-fluid icon" src="img/icono_horario.svg" align="left">
               </div>
               <div class="col-10">
                 <p>lunes a viernes 8 am - 7 pm sábado y domingos 10 am - 2 pm</p>
@@ -633,27 +600,27 @@
             </div>
           </div>
         </div>
-          <div class="d-flex flex-wrap col-sm-12 sociales">
-            <!-- FB -->
-            <a href="https://www.facebook.com/MenitaFoodMX/"><img src="/img/icono_FB.svg"></a>
-            <!-- IG -->
-            <a href="https://www.instagram.com/menita_food/"><img src="/img/Icono_IG.svg"></a>
-            <!-- TK -->
-            <a href="https://www.tiktok.com/@menitafood"><img src="/img/Icono_TK.svg"></a>
-            <!-- YT -->
-            <a href="https://www.youtube.com/channel/UCQ2FsKFpMGN4O3jCryUhUEQ"><img src="/img/Icono_YT.svg"></a>
-          </div>
-          <div class="sociales">
-            <span class="linea1"></span>
-          </div>
-          <div class="copyright">
-            <h4>© 2022 - MENITA COMERCIAL</h4>
-            <p>Aviso Legal | Términos y Condiciones | Aviso de Privacidad</p>
-          </div>
+        <div class="d-flex flex-wrap col-sm-12 sociales">
+          <!-- FB -->
+          <a href="https://www.facebook.com/MenitaFoodMX/"><img src="img/icono_FB.svg"></a>
+          <!-- IG -->
+          <a href="https://www.instagram.com/menita_food/"><img src="img/Icono_IG.svg"></a>
+          <!-- TK -->
+          <a href="https://www.tiktok.com/@menitafood"><img src="img/Icono_TK.svg"></a>
+          <!-- YT -->
+          <a href="https://www.youtube.com/channel/UCQ2FsKFpMGN4O3jCryUhUEQ"><img src="img/Icono_YT.svg"></a>
+        </div>
+        <div class="sociales">
+          <span class="linea1"></span>
+        </div>
+        <div class="copyright">
+          <h4>© 2022 - MENITA COMERCIAL</h4>
+          <p>Aviso Legal | Términos y Condiciones | Aviso de Privacidad</p>
+        </div>
       </div>
     </footer>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
@@ -663,11 +630,37 @@
       integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function () {
+        $('body').scrollspy({
+          target: '#navbar-menu'
+        });
+        // Add smooth scrolling on all links inside the navbar
+        $("#navbar-menu a").on('click', function (event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+            // Store hash
+            var hash = this.hash;
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function () {
+              // Add hash (#) to URL when done scrolling (default click behavior)
+
+              window.location.hash = hash;
+
+            });
+
+          } // End if
+
+        });
         $('.slider').slick({
           dots: false,
           arrows: true,
