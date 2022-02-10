@@ -173,7 +173,7 @@ header .logo {
   background-color: #89d631;
   display: block;
   bottom: 4rem;
-  margin-left: 46rem;
+  margin: 0 auto;
 }
 
 .banner-beneficios h1 a {
@@ -250,7 +250,7 @@ header .logo {
   background-color: #89d631;
   display: block;
   bottom: 7rem;
-  margin-left: 48rem;
+  margin: 0 auto;
 }
 
 .title .linea2 {
@@ -260,7 +260,7 @@ header .logo {
   background-color: #89d631;
   display: block;
   bottom: 6.5rem;
-  margin-left: 51rem;
+  margin: 0 auto;
 }
 
 .title h1 {
