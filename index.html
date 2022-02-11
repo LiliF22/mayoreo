@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/slick.css">
   <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <meta name="theme-color" content="#fafafa">
   <title>Menita para tu negocio</title>
@@ -121,21 +122,21 @@
       <h1>CALIDAD GARANTIZADA</h1>
       <span class="linea"></span>
     </div>
-    <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-3 text-center mt-2 mt-sm-2 ">
-        <img src="img/ANSI_logo.png" class="img-fluid logos" onmouseover="this.src='img/ANSI_logo_hover.png'"
+    <div class="c-slider">
+      <div class="col-sm-4">
+        <img src="img/ANSI_logo.png" class="img-fluid carousel logos" onmouseover="this.src='img/ANSI_logo_hover.png'"
           onmouseout="this.src='img/ANSI_logo.png'">
       </div>
-      <div class="col-sm-12 col-md-6 col-lg-3 text-center mt-2 mt-sm-2 ">
-        <img src="img/BAP_logo.png" class="img-fluid logos" onmouseover="this.src='img/BAP_logo_hover.png'"
+      <div class="col-sm-4">
+        <img src="img/BAP_logo.png" class="img-fluid carousel logos" onmouseover="this.src='img/BAP_logo_hover.png'"
           onmouseout="this.src='img/BAP_logo.png'">
       </div>
-      <div class="col-sm-12 col-md-6 col-lg-3 text-center mt-2 mt-sm-2 ">
-        <img src="img/NSF_logo.png" class="img-fluid logos" onmouseover="this.src='img/NSF_hover.png'"
+      <div class="col-sm-4">
+        <img src="img/NSF_logo.png" class="img-fluid carousel logos" onmouseover="this.src='img/NSF_hover.png'"
           onmouseout="this.src='img/NSF_logo.png'">
       </div>
-      <div class="col-sm-12 col-md-6 col-lg-3 text-center mt-2 mt-sm-2 ">
-        <img src="img/SGS_logo.png" class="img-fluid logos" onmouseover="this.src='img/SGS_hover.png'"
+      <div class="col-sm-4">
+        <img src="img/SGS_logo.png" class="img-fluid carousel logos" onmouseover="this.src='img/SGS_hover.png'"
           onmouseout="this.src='img/SGS_logo.png'">
       </div>
     </div>
@@ -151,7 +152,9 @@
     <div class="slider">
       <div class="col-sm-4">
         <figure>
+          <a href="popup.php?id=1" class="ajax-popup-link" data-actt="1">
           <img src="img/carne_de_res.jpg" class="img-fluid carousel">
+        </a>
           <div class="capa pt-4">
             <h3>
               <span class="linea1"></span>
@@ -178,7 +181,9 @@
       </div>
       <div class="col-sm-4">
         <figure>
-          <img src="img/carne_de_cerdo.jpg" class="img-fluid carousel">
+          <a href="popup.php?id=2" class="ajax-popup-link" data-actt="2">
+            <img src="img/carne_de_cerdo.jpg" class="img-fluid carousel">
+          </a>
           <div class="capa pt-4">
             <h3>
               <span class="linea1"></span>
@@ -447,30 +452,30 @@
           <h2>Afiliate a Menita Food en 3 sencillos pasos:</h2>
           <div class="d-flex justify-content-end col-sm-12 cont-footer">
             <div>
-              <div class="pasos row">
-                <div class="col-11">
+              <div class="col-sm-12 pasos row">
+                <div class="col-9 col-md-11 col-lg-11">
                   <p>Llena el formulario</p>
                 </div>
-                <div class="col-1">
-                  <span>1</span>
+                <div class="col-3 col-md-1 col-lg-1">
+                  <span class="step1">1</span>
                 </div>
               </div>
               <div class="pasos row">
-                <div class="col-11">
+                <div class="col-9 col-md-11 col-lg-11">
                   <p>Un asesor se pondrá en contacto contigo</p>
                 </div>
-                <div class="col-1">
+                <div class="col-3 col-md-1 col-lg-1">
                   <span>2</span>
                 </div>
               </div>
               <div class="pasos row">
-                <div class="col-11">
+                <div class="col-9 col-md-11 col-lg-11">
                   <p>
                     Preguntará por tus necesidades para <br>
                     personalizar tu sistema de entregas y pagos
                   </p>
                 </div>
-                <div class="col-1">
+                <div class="col-3 col-md-1 col-lg-1">
                   <span>3</span>
                 </div>
               </div>
@@ -512,11 +517,12 @@
         </div>
         <div class="col-sm-12 col-md-12 col-lg-6 ">
           <label class="col-form-label pb-3">Productos de tu interés</label>
-          <div class="row">
+          <div class="d-flex flex-wrap">
             <div class="form-check">
               <input type="radio" class="form-check-input">
               <label class="form-check-label">Carnes</label>
             </div>
+
             <div class="form-check">
               <input type="radio" class="form-check-input">
               <label class="form-check-label">Camarón</label>
@@ -554,49 +560,49 @@
     </div>
     <!-- Footer -->
     <footer id="contacto" class="page-footer">
-      <div class="container-fluid">
+      <div class="container-fluid pb-2">
         <img class="logo-menita img-fluid" src="img/Logo_menita_blanco.png">
         <div class="contact-title">
           <h2>Contáctanos</h2>
         </div>
         <div class="d-flex flex-wrap col-sm-12 cont-footer">
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 icons-ideal">
-            <div class="text-footer">
-              <div class="col-2">
+          <div class="col-sm-12 col-md-4 col-lg-4 icons-ideal">
+            <div class="text-footer flex-wrap">
+              <div class="col-sm-12 col-md-3 col-lg-2">
                 <img class="img-fluid icon" src="img/icono_ubicacion.svg" align="left">
               </div>
-              <div class="col-10">
+              <div class="col-sm-12 col-md-9 col-lg-10 cont">
                 <p>Volcán Paricutín #4881 Zapopan,Jalisco 45130</p>
               </div>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 icons-ideal ">
+          <div class="col-sm-12 col-md-4 col-lg-4 icons-ideal ">
             <div class="text-footer flex-wrap">
-              <div class="col-12">
-                <div class="col-3">
-                  <img class="img-fluid" src="img/icono_telefono.svg" align="left">
+              <div class="col-12 d-flex flex-wrap">
+                <div class="col-sm-12 col-md-4 col-lg-2">
+                  <img class="img-fluid icon-a" src="img/icono_telefono.svg" align="left">
                 </div>
-                <div class="col-9">
-                  <a href="tel:3320655152">332 065 5152</a>
+                <div class="col-sm-12 col-md-8 col-lg-10 cont">
+                  <a href="tel:3320655152">3320655152</a>
                 </div>
               </div>
-              <div class="col-12">
-                <div class="col-3">
-                  <img class="img-fluid" src="img/icono_mail.svg" align="left">
+              <div class="col-12 d-flex flex-wrap">
+                <div class="col-sm-12 col-md-4 col-lg-2">
+                  <img class="img-fluid icon-a" src="img/icono_mail.svg" align="left">
                 </div>
-                <div class="col-9">
+                <div class="col-sm-12 col-md-8 col-lg-10 cont">
                   <a href="mailto:hola@menita.com">hola@menita.com</a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 icons-ideal">
-            <div class="text-footer">
-              <div class="col-2">
+          <div class="col-sm-12 col-md-4 col-lg-4 icons-ideal">
+            <div class="text-footer flex-wrap">
+              <div class="col-sm-12 col-md-3 col-lg-2">
                 <img class="img-fluid icon" src="img/icono_horario.svg" align="left">
               </div>
-              <div class="col-10">
-                <p>lunes a viernes 8 am - 7 pm sábado y domingos 10 am - 2 pm</p>
+              <div class="col-sm-12 col-md-9 col-lg-10">
+                <p>lunes a viernes 8 am-7 pm sábado y domingos 10 am-2 pm</p>
               </div>
             </div>
           </div>
@@ -632,6 +638,7 @@
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="text/javascript">
       $(document).ready(function () {
         $('body').scrollspy({
@@ -659,38 +666,123 @@
           } // End if
 
         });
-        $('.slider').slick({
-          dots: false,
-          arrows: true,
-          infinite: true,
-          speed: 300,
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          responsive: [{
-              breakpoint: 1024,
-              settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
-                dots: false
+        if ($(".slider").length > 0) {
+          $('.slider').slick({
+            dots: false,
+            arrows: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            responsive: [{
+                breakpoint: 1024,
+                settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 3,
+                  dots: false
+                }
+              },
+              {
+                breakpoint: 821,
+                settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 2,
+                  dots: false
+                }
+              },
+              {
+                breakpoint: 480,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1
+                }
               }
-            },
-            {
-              breakpoint: 821,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
-                dots: false
+            ]
+          });
+        }
+        if ($(".c-slider").length > 0) {
+          $('.c-slider').slick({
+            dots: false,
+            arrows: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            responsive: [{
+                breakpoint: 1024,
+                settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 3,
+                  dots: false
+                }
+              },
+              {
+                breakpoint: 821,
+                settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 2,
+                  dots: false
+                }
+              },
+              {
+                breakpoint: 480,
+                settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 1
+                }
               }
-            },
-            {
-              breakpoint: 480,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-              }
-            }
-          ]
-        });
+            ]
+          });
+        }
+
+        $('.ajax-popup-link').magnificPopup({
+		    type: 'ajax',
+        callbacks: {
+    open: function() {
+      data = this.currItem.el.data('actt');
+      switch(data) {
+          case 1:
+            $('.ajcol').html('ajcol'+ data);
+            console.log('entro aca');
+            break;
+          case 2:
+            // code block
+            break;
+          default:
+            // code block
+        }
+    },
+    close: function() {
+      // Will fire when popup is closed
+    }
+    // e.t.c.
+  }
+	      });
+
+
+      // $('body').on('click', '.ajax-popup-link', function(e){
+      //     e.preventDefault();
+      //     $destinatario = $(this).data('actt');
+      //     value = $(this).attr('href');
+      //     console.log(value);
+      //     $.magnificPopup.open({
+      //         items: {
+      //             src: value,
+      //         },
+      //         type: 'ajax',
+      //         modal: true,
+      //         ajax: {
+      //             settings: {
+      //                 url: value,
+      //                 type: 'POST'
+      //             }
+      //         },
+      //         showCloseBtn:true            
+      //     });
+      // });
+
+
+
       });
 
     </script>
