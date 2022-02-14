@@ -1364,8 +1364,27 @@ header .logo {
   }
 }
 .nombre {
-  font-family: "mairy_boldregular";
-  font-size: 50px;
+  font-size: 3.5rem;
   color: #2a93ec;
+  font-family: "mairy_regularregular";
+  margin: 0px;
+  padding: 0rem 7.1rem 1rem 0px;
+  line-height: 12mm;
+}
+
+.linea-ipad {
+  position: relative;
+  width: 12.5rem;
+  height: 4px;
+  background-color: #89d631;
+  display: block;
+  bottom: 15px;
+}
+
+.text-modal {
+  font-family: "poppinsregular";
+  font-size: 22px;
+  color: #707070;
+  line-height: 7.9mm;
 }
 /*# sourceMappingURL=main.css.map */

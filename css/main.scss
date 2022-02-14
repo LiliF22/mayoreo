@@ -1304,9 +1304,26 @@ header {
 }
 
 }
-.nombre {
-  font-family: $mairyBoldregular;
-  font-size: 50px;
+ //Modal de productos para dispositivos md
+ .nombre {
+  font-size: 3.5rem;
   color: $blue;
-
+  font-family: $mairyRegularregular;
+  margin: 0px;
+  padding: 0rem 7.1rem 1rem 0px;
+  line-height: 12mm;
+}
+.linea-ipad {
+  position: relative;
+  width: 12.5rem;
+  height: 4px;
+  background-color: $green;
+  display: block;
+  bottom: 15px;
+}
+.text-modal {
+  font-family: $poppinsRegular;
+  font-size: 22px;
+  color: $gray;
+  line-height: 7.9mm;
 }
