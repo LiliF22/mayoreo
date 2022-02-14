@@ -2,13 +2,16 @@
 <div class="mfp-content"><div class="ajax-text-and-image white-popup-block">
 	<style>
 	.ajax-text-and-image {
-		max-width:800px; margin: 20px auto; background: #FFF; padding: 0; line-height: 0; border-radius: 30px;
+		max-width:800px; margin: 20px auto; background: #FFF; padding: 0; line-height: 0; border-radius: 30px; overflow: hidden; 
 	}
 	.ajcol {
 		width: 50%; float:left;
 	}
 	.ajcol img {
-		width: 100%; height: auto; border-radius: 30px 0px 0px 30px;
+		width: 100%; height: auto;
+	}
+	.mfp-content {
+		padding: 15px;
 	}
 	@media all and (max-width:30em) {
 		.ajcol { 
